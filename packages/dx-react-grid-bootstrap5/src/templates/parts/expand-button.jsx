@@ -28,10 +28,10 @@ export const ExpandButton = ({
   return (
     <i
       className={classNames({
-        'oi p-2 text-center dx-g-bs4-toggle-button': true,
+        'oi p-2 text-center dx-g-bs5-toggle-button': true,
         'oi-chevron-bottom': expanded,
         'oi-chevron-right': !expanded,
-        'dx-g-bs4-toggle-button-hidden': !visible,
+        'dx-g-bs5-toggle-button-hidden': !visible,
       }, className)}
       tabIndex={visible ? 0 : undefined} // eslint-disable-line jsx-a11y/no-noninteractive-tabindex
       onKeyDown={handleKeyDown}

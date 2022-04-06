@@ -14,7 +14,7 @@ describe('GroupButton', () => {
         disabled
       />
     ));
-    expect(tree.find('span').hasClass('dx-g-bs4-inactive'))
+    expect(tree.find('span').hasClass('dx-g-bs5-inactive'))
       .toBeTruthy();
   });
 
@@ -39,7 +39,7 @@ describe('GroupButton', () => {
       />
     ));
 
-    expect(tree.is('.dx-g-bs4-grouping-control'))
+    expect(tree.is('.dx-g-bs5-grouping-control'))
       .toBeTruthy();
     expect(tree.is('.customClass'))
       .toBeTruthy();

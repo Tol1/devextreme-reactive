@@ -7,7 +7,7 @@ export const BandedHeaderCell = ({
 }) => (
   <HeaderCellComponent
     className={classNames({
-      'dx-g-bs4-banded-header-cell border-end': true,
+      'dx-g-bs5-banded-header-cell border-end': true,
       'border-start': beforeBorder,
     }, className)}
     {...restProps}

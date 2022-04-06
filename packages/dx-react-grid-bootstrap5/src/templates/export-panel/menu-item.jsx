@@ -7,7 +7,7 @@ export const MenuItem = ({
 }) => (
   <button
     type="button"
-    className={classNames('dx-g-bs4-cursor-pointer dropdown-item', className)}
+    className={classNames('dx-g-bs5-cursor-pointer dropdown-item', className)}
     onClick={onClick}
     {...restProps}
   >

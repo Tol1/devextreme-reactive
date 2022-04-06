@@ -9,7 +9,7 @@ export const TableSkeletonCell = ({
   ...restProps
 }) => (
   <td
-    className={classNames('dx-g-bs4-skeleton-cell', className)}
+    className={classNames('dx-g-bs5-skeleton-cell', className)}
     {...restProps}
   />
 );

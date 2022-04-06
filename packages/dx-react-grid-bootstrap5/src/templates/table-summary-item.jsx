@@ -12,7 +12,7 @@ export const TableSummaryItem = ({
   ...restProps
 }) => (
   <Tag
-    className={classNames('dx-g-bs4-table-summary-item', className)}
+    className={classNames('dx-g-bs5-table-summary-item', className)}
     {...restProps}
   >
     {

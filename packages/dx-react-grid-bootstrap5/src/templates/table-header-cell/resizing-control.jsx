@@ -40,20 +40,20 @@ export class ResizingControl extends React.PureComponent {
       >
         <div
           className={classNames({
-            'dx-g-bs4-resizing-control-wrapper': true,
-            'dx-g-bs4-resizing-control-wrapper-active': resizing,
+            'dx-g-bs5-resizing-control-wrapper': true,
+            'dx-g-bs5-resizing-control-wrapper-active': resizing,
           })}
         >
           <div
             className={classNames({
-              'dx-g-bs4-resize-control-line dx-g-bs4-resize-control-line-first bg-primary': true,
-              'dx-g-bs4-resize-control-line-active': resizing,
+              'dx-g-bs5-resize-control-line dx-g-bs5-resize-control-line-first bg-primary': true,
+              'dx-g-bs5-resize-control-line-active': resizing,
             })}
           />
           <div
             className={classNames({
-              'dx-g-bs4-resize-control-line dx-g-bs4-resize-control-line-second bg-primary': true,
-              'dx-g-bs4-resize-control-line-active': resizing,
+              'dx-g-bs5-resize-control-line dx-g-bs5-resize-control-line-second bg-primary': true,
+              'dx-g-bs5-resize-control-line-active': resizing,
             })}
           />
         </div>

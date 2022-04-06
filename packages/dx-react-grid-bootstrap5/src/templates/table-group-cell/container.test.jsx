@@ -7,7 +7,7 @@ describe('TableGroupCell', () => {
     it('should have correct classes', () => {
       const tree = shallow(<Container />);
 
-      expect(tree.is('.position-sticky.dx-g-bs4-fixed-group-cell'));
+      expect(tree.is('.position-sticky.dx-g-bs5-fixed-group-cell'));
     });
 
     it('should apply style', () => {
@@ -35,7 +35,7 @@ describe('TableGroupCell', () => {
         />
       ));
 
-      expect(tree.is('.position-sticky.dx-g-bs4-fixed-group-cell.custom-class'))
+      expect(tree.is('.position-sticky.dx-g-bs5-fixed-group-cell.custom-class'))
         .toBeTruthy();
     });
 

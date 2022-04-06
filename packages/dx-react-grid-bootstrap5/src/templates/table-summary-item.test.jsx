@@ -40,7 +40,7 @@ describe('TableSummaryItem', () => {
       />
     ));
 
-    expect(tree.is('.custom-class.dx-g-bs4-table-summary-item'))
+    expect(tree.is('.custom-class.dx-g-bs5-table-summary-item'))
       .toBeTruthy();
   });
 

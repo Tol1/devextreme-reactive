@@ -7,7 +7,7 @@ describe('TableGroupCell', () => {
     it('should have correct classes', () => {
       const tree = shallow(<IndentCell />);
 
-      expect(tree.is('.position-sticky.dx-g-bs4-fixed-cell'))
+      expect(tree.is('.position-sticky.dx-g-bs5-fixed-cell'))
         .toBeTruthy();
     });
 
@@ -42,7 +42,7 @@ describe('TableGroupCell', () => {
         />
       ));
 
-      expect(tree.is('.position-sticky.dx-g-bs4-fixed-cell.custom-class'))
+      expect(tree.is('.position-sticky.dx-g-bs5-fixed-cell.custom-class'))
         .toBeTruthy();
     });
 

@@ -11,7 +11,7 @@ export const ToolbarBase = ({
   ...restProps
 }) => (
   <div
-    className={classNames('card-header py-2 d-flex position-relative dx-g-bs4-toolbar', className)}
+    className={classNames('card-header py-2 d-flex position-relative dx-g-bs5-toolbar', className)}
     ref={forwardedRef}
     style={style}
     {...restProps}

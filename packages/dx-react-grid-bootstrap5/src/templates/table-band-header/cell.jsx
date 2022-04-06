@@ -10,7 +10,7 @@ export const Cell = ({
 }) => (
   <th
     className={classNames({
-      'dx-g-bs4-banded-cell dx-g-bs4-table-cell text-nowrap border-end': true,
+      'dx-g-bs5-banded-cell dx-g-bs5-table-cell text-nowrap border-end': true,
       'border-start': beforeBorder,
     }, className)}
     ref={forwardedRef}

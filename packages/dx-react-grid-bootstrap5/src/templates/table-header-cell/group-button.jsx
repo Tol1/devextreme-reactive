@@ -7,7 +7,7 @@ export const GroupButton = ({
 }) => (
   <div
     className={classNames({
-      'dx-g-bs4-grouping-control': true,
+      'dx-g-bs5-grouping-control': true,
     }, className)}
     onClick={(e) => {
       if (disabled) return;
@@ -18,9 +18,9 @@ export const GroupButton = ({
   >
     <span
       className={classNames({
-        'oi oi-list dx-g-bs4-grouping-control-icon': true,
-        'dx-g-bs4-cursor-pointer': !disabled,
-        'dx-g-bs4-inactive': disabled,
+        'oi oi-list dx-g-bs5-grouping-control-icon': true,
+        'dx-g-bs5-cursor-pointer': !disabled,
+        'dx-g-bs5-inactive': disabled,
       })}
     />
   </div>

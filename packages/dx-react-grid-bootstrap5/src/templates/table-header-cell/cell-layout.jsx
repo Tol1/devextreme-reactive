@@ -27,10 +27,10 @@ export const CellLayout = ({
   return (
     <th
       className={classNames({
-        'position-relative dx-g-bs4-header-cell': true,
-        'dx-g-bs4-user-select-none': draggingEnabled,
-        'dx-g-bs4-cursor-pointer': draggingEnabled,
-        'dx-g-bs4-inactive': dragging || (tableColumn && tableColumn.draft),
+        'position-relative dx-g-bs5-header-cell': true,
+        'dx-g-bs5-user-select-none': draggingEnabled,
+        'dx-g-bs5-cursor-pointer': draggingEnabled,
+        'dx-g-bs5-inactive': dragging || (tableColumn && tableColumn.draft),
         'text-nowrap': !(tableColumn && tableColumn.wordWrapEnabled),
       }, className)}
       scope="col"

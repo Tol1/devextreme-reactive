@@ -6,7 +6,7 @@ import { TableRow as RowBase } from '../table-row';
 export const Row = ({ children, className, ...restProps }) => (
   <RowBase
     {...restProps}
-    className={classNames('dx-g-bs4-cursor-pointer', className)}
+    className={classNames('dx-g-bs5-cursor-pointer', className)}
   >
     {children}
   </RowBase>

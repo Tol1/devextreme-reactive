@@ -15,7 +15,7 @@ describe('Toolbar', () => {
       </Toolbar>
     ));
 
-    expect(tree.is('.custom-class.card-header.dx-g-bs4-toolbar.d-flex.position-relative'))
+    expect(tree.is('.custom-class.card-header.dx-g-bs5-toolbar.d-flex.position-relative'))
       .toBeTruthy();
   });
 

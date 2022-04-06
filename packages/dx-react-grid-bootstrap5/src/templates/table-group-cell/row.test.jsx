@@ -32,7 +32,7 @@ describe('TableGroupRow', () => {
       />
     ));
 
-    expect(tree.is('.dx-g-bs4-cursor-pointer.custom'))
+    expect(tree.is('.dx-g-bs5-cursor-pointer.custom'))
       .toBeTruthy();
   });
 });

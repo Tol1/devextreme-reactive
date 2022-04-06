@@ -16,7 +16,7 @@ class FocusCellBase extends React.PureComponent {
       <CellPlaceholder
         className={classNames({
           'border border-primary dx-g-bs-focus-cell': !!focused,
-          'dx-g-bs4-simple-cell': true,
+          'dx-g-bs5-simple-cell': true,
         }, className)}
         {...restProps}
       />

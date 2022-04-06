@@ -44,7 +44,7 @@ export const GroupPanelItem = ({
       ref={forwardedRef}
       className={classNames({
         'btn-group mb-1 me-1': true,
-        'dx-g-bs4-inactive': draft,
+        'dx-g-bs5-inactive': draft,
       }, className)}
       {...restProps}
     >
@@ -78,7 +78,7 @@ export const GroupPanelItem = ({
         >
           &nbsp;
           <span
-            className="oi oi-x dx-g-bs4-group-panel-item-icon"
+            className="oi oi-x dx-g-bs5-group-panel-item-icon"
           />
         </span>
       )}

@@ -126,7 +126,7 @@ describe('GroupRowCell', () => {
       />
     ));
 
-    expect(tree.is('.dx-g-bs4-group-cell.custom-class'))
+    expect(tree.is('.dx-g-bs5-group-cell.custom-class'))
       .toBeTruthy();
   });
 

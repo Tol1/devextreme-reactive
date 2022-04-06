@@ -11,8 +11,8 @@ export const TableHead = ({
   return (
     <thead
       className={classNames({
-        'dx-g-bs4-fixed-header': isFixed,
-        'dx-g-bs4-table-sticky': isFixed,
+        'dx-g-bs5-fixed-header': isFixed,
+        'dx-g-bs5-table-sticky': isFixed,
       }, className)}
       style={{
         ...(isFixed && { backgroundColor }),
@@ -50,8 +50,8 @@ export const TableFooter = ({
   return (
     <tfoot
       className={classNames({
-        'dx-g-bs4-fixed-footer': isFixed,
-        'dx-g-bs4-table-sticky': isFixed,
+        'dx-g-bs5-fixed-footer': isFixed,
+        'dx-g-bs5-table-sticky': isFixed,
       })}
       style={{
         ...(isFixed && { backgroundColor }),

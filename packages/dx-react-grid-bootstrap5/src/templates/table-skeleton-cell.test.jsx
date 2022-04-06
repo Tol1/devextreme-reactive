@@ -8,7 +8,7 @@ describe('TableSkeletonCell', () => {
       <TableSkeletonCell className="custom-class" />
     ));
 
-    expect(tree.is('.dx-g-bs4-skeleton-cell.custom-class'))
+    expect(tree.is('.dx-g-bs5-skeleton-cell.custom-class'))
       .toBeTruthy();
   });
 

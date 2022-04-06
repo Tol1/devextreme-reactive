@@ -6,7 +6,7 @@ export const Title = ({
   children, className, ...restProps
 }) => (
   <span
-    className={classNames('dx-rg-bs4-table-header-title', className)}
+    className={classNames('dx-rg-bs5-table-header-title', className)}
     {...restProps}
   >
     {children}

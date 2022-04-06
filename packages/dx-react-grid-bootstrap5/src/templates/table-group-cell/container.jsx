@@ -6,7 +6,7 @@ export const Container = ({
   children, className, style, side, position, ...restProps
 }) => (
   <div
-    className={classNames('position-sticky dx-g-bs4-fixed-group-cell', className)}
+    className={classNames('position-sticky dx-g-bs5-fixed-group-cell', className)}
     style={{
       ...style,
       [side]: position,

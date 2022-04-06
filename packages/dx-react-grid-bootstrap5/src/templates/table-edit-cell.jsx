@@ -20,7 +20,7 @@ export const EditCell = ({
   return (
     <td
       className={classNames({
-        'align-middle dx-g-bs4-table-edit-cell': true,
+        'align-middle dx-g-bs5-table-edit-cell': true,
       }, className)}
       ref={forwardedRef}
       {...restProps}

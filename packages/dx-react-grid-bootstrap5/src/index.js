@@ -1,4 +1,4 @@
-import '../../dx-styles/dx-grid-bs4.scss';
+import '../../dx-styles/dx-grid-bs5.scss';
 
 export * from './grid';
 export * from './plugins/column-chooser';

@@ -12,8 +12,8 @@ export const Item = ({
 }) => (
   <button
     className={classNames({
-      'dropdown-item dx-g-bs4-column-chooser-item': true,
-      'dx-g-bs4-cursor-pointer': !disabled,
+      'dropdown-item dx-g-bs5-column-chooser-item': true,
+      'dx-g-bs5-cursor-pointer': !disabled,
     }, className)}
     type="button"
     onClick={onToggle}
@@ -25,8 +25,8 @@ export const Item = ({
     <input
       type="checkbox"
       className={classNames({
-        'dx-g-bs4-cursor-pointer': !disabled,
-        'dx-g-bs4-column-chooser-checkbox': true,
+        'dx-g-bs5-cursor-pointer': !disabled,
+        'dx-g-bs5-column-chooser-checkbox': true,
       })}
       tabIndex={-1}
       checked={!hidden}
