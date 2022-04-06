@@ -15,7 +15,7 @@ describe('BandedHeaderCell', () => {
       />
     ));
 
-    expect(tree.find('.custom-class.dx-g-bs4-banded-header-cell.border-end').exists())
+    expect(tree.find('.custom-class.dx-g-bs5-banded-header-cell.border-end').exists())
       .toBeTruthy();
   });
 
@@ -39,7 +39,7 @@ describe('BandedHeaderCell', () => {
       />
     ));
 
-    expect(tree.find('.border-start.dx-g-bs4-banded-header-cell.border-end').exists())
+    expect(tree.find('.border-start.dx-g-bs5-banded-header-cell.border-end').exists())
       .toBeTruthy();
   });
 });

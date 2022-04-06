@@ -51,7 +51,7 @@ describe('EditCommandCells', () => {
         />
       ));
 
-      expect(tree.is('.btn.btn-link.dx-g-bs4-table-edit-command-cell.custom-class'))
+      expect(tree.is('.btn.btn-link.dx-g-bs5-table-edit-command-cell.custom-class'))
         .toBeTruthy();
     });
 

@@ -8,11 +8,11 @@ export const TableNoDataCell = ({
   tableColumn, ...restProps
 }) => (
   <td
-    className={classNames('py-5 dx-g-bs4-no-data-cell', className)}
+    className={classNames('py-5 dx-g-bs5-no-data-cell', className)}
     colSpan={colSpan}
     {...restProps}
   >
-    <div className="dx-g-bs4-fixed-block">
+    <div className="dx-g-bs5-fixed-block">
       <big className="text-muted">
         {getMessage('noData')}
       </big>

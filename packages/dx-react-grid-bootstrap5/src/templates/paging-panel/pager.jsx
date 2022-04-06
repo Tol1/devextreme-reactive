@@ -19,7 +19,7 @@ const PagerBase = ({
   ...restProps
 }) => (
   <div
-    className={classNames('clearfix card-footer dx-g-bs4-paging-panel', className)}
+    className={classNames('clearfix card-footer dx-g-bs5-paging-panel', className)}
     ref={forwardedRef}
     {...restProps}
   >

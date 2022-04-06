@@ -22,7 +22,7 @@ export const Cell = ({
     <td
       colSpan={colSpan}
       className={classNames({
-        'dx-g-bs4-group-cell': true,
+        'dx-g-bs5-group-cell': true,
         'text-nowrap': !(tableColumn && tableColumn.wordWrapEnabled),
       }, className)}
       ref={forwardedRef}

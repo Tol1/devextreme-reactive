@@ -12,7 +12,7 @@ export const IndentCell = ({
   ...restProps
 }) => (
   <td
-    className={classNames('position-sticky dx-g-bs4-fixed-cell', className)}
+    className={classNames('position-sticky dx-g-bs5-fixed-cell', className)}
     style={{ ...style, [side]: position }}
     ref={forwardedRef}
     {...restProps}

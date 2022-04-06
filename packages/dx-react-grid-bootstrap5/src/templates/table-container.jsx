@@ -11,7 +11,7 @@ export const TableContainer = ({
 }) => (
   <div
     ref={forwardedRef}
-    className={classNames('table-responsive dx-g-bs4-table-container', className)}
+    className={classNames('table-responsive dx-g-bs5-table-container', className)}
     style={{
       msOverflowStyle: 'auto',
       ...style,

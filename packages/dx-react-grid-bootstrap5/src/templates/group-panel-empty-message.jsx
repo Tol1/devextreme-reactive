@@ -10,7 +10,7 @@ export const GroupPanelEmptyMessage = ({
 }) => (
   <div
     ref={forwardedRef}
-    className={classNames('dx-g-bs4-group-panel-empty-message', className)}
+    className={classNames('dx-g-bs5-group-panel-empty-message', className)}
     {...restProps}
   >
     {getMessage('groupByColumn')}

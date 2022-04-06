@@ -22,7 +22,7 @@ describe('TableHeaderCell', () => {
       />
     ));
 
-    expect(tree.dive().find('th').is('.dx-g-bs4-user-select-none.dx-g-bs4-cursor-pointer'))
+    expect(tree.dive().find('th').is('.dx-g-bs5-user-select-none.dx-g-bs5-cursor-pointer'))
       .toBeFalsy();
   });
 
@@ -38,7 +38,7 @@ describe('TableHeaderCell', () => {
       </DragDropProvider>
     ));
 
-    expect(tree.find('th').is('.dx-g-bs4-user-select-none.dx-g-bs4-cursor-pointer.position-relative'))
+    expect(tree.find('th').is('.dx-g-bs5-user-select-none.dx-g-bs5-cursor-pointer.position-relative'))
       .toBeTruthy();
   });
 
@@ -54,19 +54,19 @@ describe('TableHeaderCell', () => {
       </DragDropProvider>
     ));
 
-    expect(tree.find('th').is('.dx-g-bs4-inactive'))
+    expect(tree.find('th').is('.dx-g-bs5-inactive'))
       .toBeFalsy();
 
     tree.find(DragSource).prop('onStart')();
     tree.update();
 
-    expect(tree.find('th').is('.dx-g-bs4-inactive'))
+    expect(tree.find('th').is('.dx-g-bs5-inactive'))
       .toBeTruthy();
 
     tree.find(DragSource).prop('onEnd')();
     tree.update();
 
-    expect(tree.find('th').is('.dx-g-bs4-inactive'))
+    expect(tree.find('th').is('.dx-g-bs5-inactive'))
       .toBeFalsy();
   });
 
@@ -104,7 +104,7 @@ describe('TableHeaderCell', () => {
       />
     ));
 
-    expect(tree.dive().find('th').is('.position-relative.dx-g-bs4-header-cell.custom-class'))
+    expect(tree.dive().find('th').is('.position-relative.dx-g-bs5-header-cell.custom-class'))
       .toBeTruthy();
   });
 

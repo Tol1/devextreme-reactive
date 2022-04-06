@@ -33,7 +33,7 @@ describe('ExportMenuItem', () => {
       />
     ));
 
-    expect(tree.is('.dx-g-bs4-cursor-pointer.dropdown-item.test'))
+    expect(tree.is('.dx-g-bs5-cursor-pointer.dropdown-item.test'))
       .toBeTruthy();
   });
 

@@ -13,10 +13,10 @@ export const Table = ({
     <table
       ref={forwardedRef}
       className={classNames({
-        'table dx-g-bs4-table': true,
-        'dx-g-bs4-table-sticky': !!use,
-        'dx-g-bs4-table-head': use === 'head',
-        'dx-g-bs4-table-foot': use === 'foot',
+        'table dx-g-bs5-table': true,
+        'dx-g-bs5-table-sticky': !!use,
+        'dx-g-bs5-table-head': use === 'head',
+        'dx-g-bs5-table-foot': use === 'foot',
       }, className)}
       {...restProps}
       style={{

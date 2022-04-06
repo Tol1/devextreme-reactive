@@ -33,7 +33,7 @@ describe('FocusCell', () => {
       <FocusCell {...defaultProps} />
     ));
 
-    expect(tree.find(defaultProps.component).props()).toEqual({ className: 'dx-g-bs4-simple-cell' });
+    expect(tree.find(defaultProps.component).props()).toEqual({ className: 'dx-g-bs5-simple-cell' });
   });
 
   it('should apply className if focus = true', () => {
@@ -42,6 +42,6 @@ describe('FocusCell', () => {
     ));
 
     expect(tree.find(defaultProps.component).props())
-      .toEqual({ className: 'border border-primary dx-g-bs-focus-cell dx-g-bs4-simple-cell' });
+      .toEqual({ className: 'border border-primary dx-g-bs-focus-cell dx-g-bs5-simple-cell' });
   });
 });

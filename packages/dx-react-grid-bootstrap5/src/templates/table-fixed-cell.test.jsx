@@ -15,7 +15,7 @@ describe('FixedCell', () => {
       <FixedCell {...defaultProps} />
     ));
 
-    expect(tree.is('.position-sticky.dx-g-bs4-fixed-cell'))
+    expect(tree.is('.position-sticky.dx-g-bs5-fixed-cell'))
       .toBeTruthy();
   });
 
@@ -52,7 +52,7 @@ describe('FixedCell', () => {
       <FixedCell {...defaultProps} className="custom-class" />
     ));
 
-    expect(tree.is('.custom-class.position-sticky.dx-g-bs4-fixed-cell'))
+    expect(tree.is('.custom-class.position-sticky.dx-g-bs5-fixed-cell'))
       .toBeTruthy();
   });
 
@@ -73,7 +73,7 @@ describe('FixedCell', () => {
       </BodyColorContext.Provider>
     ));
 
-    expect(tree.find('.dx-g-bs4-fixed-cell').prop('style')).toMatchObject({
+    expect(tree.find('.dx-g-bs5-fixed-cell').prop('style')).toMatchObject({
       backgroundColor: 'red',
     });
   });

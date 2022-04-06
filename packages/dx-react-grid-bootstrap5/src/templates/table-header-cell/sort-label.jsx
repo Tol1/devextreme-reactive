@@ -30,8 +30,8 @@ export const SortLabel = ({
 }) => (
   <span
     className={classNames({
-      'd-inline-flex flex-direction-row align-items-center mw-100 dx-g-bs4-user-select-none': true,
-      'dx-g-bs4-cursor-pointer': !disabled,
+      'd-inline-flex flex-direction-row align-items-center mw-100 dx-g-bs5-user-select-none': true,
+      'dx-g-bs5-cursor-pointer': !disabled,
       'flex-row-reverse': align === 'right',
       'text-primary': direction,
     }, className)}
@@ -44,7 +44,7 @@ export const SortLabel = ({
     {children}
     <SortingIndicator
       direction={direction}
-      className={direction ? '' : 'dx-g-bs4-sort-indicator-invisible'}
+      className={direction ? '' : 'dx-g-bs5-sort-indicator-invisible'}
     />
   </span>
 );

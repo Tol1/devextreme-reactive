@@ -23,7 +23,7 @@ export class FixedCell extends React.PureComponent {
         className={classNames({
           'border-start': showLeftDivider,
           'border-end': showRightDivider,
-          'dx-g-bs4-fixed-cell': true,
+          'dx-g-bs5-fixed-cell': true,
           'position-sticky': true,
         }, className)}
         style={{

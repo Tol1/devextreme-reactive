@@ -8,6 +8,7 @@ scopes:
   - react-bootstrap4
   - react-chart
   - react-chart-bootstrap4
+  - react-chart-bootstrap5
   - react-chart-demos
   - react-chart-material-ui
   - react-common
@@ -15,6 +16,7 @@ scopes:
   - react-grid
   - react-grid-bootstrap3
   - react-grid-bootstrap4
+  - react-grid-bootstrap5
   - react-grid-demos
   - react-grid-export
   - react-grid-material-ui

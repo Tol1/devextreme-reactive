@@ -5,7 +5,7 @@ const setClassName = ({ classes, ...restProps }) => {
   if (restProps.state) {
     const { className, ...rest } = restProps;
     return {
-      className: classNames('dx-c-bs4-fill-background-color', className),
+      className: classNames('dx-c-bs5-fill-background-color', className),
       ...rest,
     };
   }

@@ -5,7 +5,7 @@ import classNames from 'clsx';
 export const SortingIndicator = React.memo(({ direction, className }) => (
   <span
     className={classNames({
-      'oi dx-g-bs4-sorting-indicator mx-2': true,
+      'oi dx-g-bs5-sorting-indicator mx-2': true,
       'oi-arrow-thick-bottom': direction === 'desc',
       'oi-arrow-thick-top': direction !== 'desc',
       invisible: !direction,

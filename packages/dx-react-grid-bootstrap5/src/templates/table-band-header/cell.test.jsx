@@ -19,7 +19,7 @@ describe('TableCell', () => {
       <Cell className="custom-class" />
     ));
 
-    expect(tree.is('.custom-class.dx-g-bs4-banded-cell.text-nowrap.dx-g-bs4-table-cell.border-end'))
+    expect(tree.is('.custom-class.dx-g-bs5-banded-cell.text-nowrap.dx-g-bs5-table-cell.border-end'))
       .toBeTruthy();
   });
 
@@ -36,7 +36,7 @@ describe('TableCell', () => {
       <Cell beforeBorder />
     ));
 
-    expect(tree.is('.border-start.dx-g-bs4-banded-cell.text-nowrap.dx-g-bs4-table-cell.border-end'))
+    expect(tree.is('.border-start.dx-g-bs5-banded-cell.text-nowrap.dx-g-bs5-table-cell.border-end'))
       .toBeTruthy();
   });
 });

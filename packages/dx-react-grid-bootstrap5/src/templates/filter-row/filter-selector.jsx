@@ -57,13 +57,13 @@ export class FilterSelector extends React.PureComponent {
                     key={valueItem}
                     className={classNames({
                       'dropdown-item d-flex align-items-center': true,
-                      'dx-g-bs4-cursor-pointer dx-g-bs4-filter-selector-item': true,
+                      'dx-g-bs5-cursor-pointer dx-g-bs5-filter-selector-item': true,
                       active: valueItem === value,
                     })}
                     onClick={() => this.handleMenuItemClick(valueItem)}
                   >
                     <Icon type={valueItem} />
-                    <span className="dx-g-bs4-filter-selector-item-text">
+                    <span className="dx-g-bs5-filter-selector-item-text">
                       {getMessage(valueItem)}
                     </span>
                   </button>
