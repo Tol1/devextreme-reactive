@@ -1,18 +1,17 @@
 {
-  "name": "@devexpress/dx-react-chart-bootstrap5",
-  "version": "3.0.2",
+  "name": "dx-react-chart-bootstrap5",
+  "version": "1.0.0",
   "description": "Bootstrap 5 templates for DevExtreme React Chart component",
   "author": {
-    "name": "Developer Express Inc.",
-    "url": "https://www.devexpress.com/"
+    "name": "Tomi Nokkala",
+    "email": "tol1@iki.fi"
   },
   "bugs": {
-    "url": "https://github.com/DevExpress/devextreme-reactive/issues"
+    "url": "https://github.com/tol1/devextreme-reactive/issues"
   },
-  "homepage": "https://devexpress.github.io/devextreme-reactive/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevExpress/devextreme-reactive.git"
+    "url": "git@github.com:tol1/devextreme-reactive.git"
   },
   "keywords": [
     "react",
