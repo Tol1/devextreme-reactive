@@ -35,250 +35,251 @@ import { VirtualTable as VirtualTable_2 } from '@devexpress/dx-react-grid';
 
 // @public (undocumented)
 export namespace ColumnChooser {
-  export type OverlayProps = ColumnChooser_2.OverlayProps;
+    export type OverlayProps = ColumnChooser_2.OverlayProps;
 }
 
 // @public (undocumented)
 export namespace ColumnChooser {
-  export type ToggleButtonProps = ColumnChooser_2.ToggleButtonProps;
+    export type ToggleButtonProps = ColumnChooser_2.ToggleButtonProps;
 }
 
 // @public (undocumented)
 export namespace ColumnChooser {
-  export type ContainerProps = ColumnChooser_2.ContainerProps;
+    export type ContainerProps = ColumnChooser_2.ContainerProps;
 }
 
 // @public (undocumented)
 export namespace ColumnChooser {
-  export type ItemProps = ColumnChooser_2.ItemProps;
+    export type ItemProps = ColumnChooser_2.ItemProps;
 }
 
 // @public
 export const ColumnChooser: React_2.ComponentType<ColumnChooserProps> & {
-  ToggleButton: React_2.ComponentType<ColumnChooser_2.ToggleButtonProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Overlay: React_2.ComponentType<ColumnChooser_2.OverlayProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Container: React_2.ComponentType<ColumnChooser_2.ContainerProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Item: React_2.ComponentType<ColumnChooser_2.ItemProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    ToggleButton: React_2.ComponentType<ColumnChooser_2.ToggleButtonProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Overlay: React_2.ComponentType<ColumnChooser_2.OverlayProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Container: React_2.ComponentType<ColumnChooser_2.ContainerProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Item: React_2.ComponentType<ColumnChooser_2.ItemProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface ColumnChooserProps {
-  containerComponent?: React_2.ComponentType<ColumnChooser_2.ContainerProps>;
-  itemComponent?: React_2.ComponentType<ColumnChooser_2.ItemProps>;
-  messages?: ColumnChooser_2.LocalizationMessages;
-  overlayComponent?: React_2.ComponentType<ColumnChooser_2.OverlayProps>;
-  toggleButtonComponent?: React_2.ComponentType<ColumnChooser_2.ToggleButtonProps>;
+    containerComponent?: React_2.ComponentType<ColumnChooser_2.ContainerProps>;
+    itemComponent?: React_2.ComponentType<ColumnChooser_2.ItemProps>;
+    messages?: ColumnChooser_2.LocalizationMessages;
+    overlayComponent?: React_2.ComponentType<ColumnChooser_2.OverlayProps>;
+    toggleButtonComponent?: React_2.ComponentType<ColumnChooser_2.ToggleButtonProps>;
 }
 
 // @public (undocumented)
 export namespace DragDropProvider {
-  export type ContainerProps = DragDropProvider_2.ContainerProps;
+    export type ContainerProps = DragDropProvider_2.ContainerProps;
 }
 
 // @public (undocumented)
 export namespace DragDropProvider {
-  export type ColumnProps = DragDropProvider_2.ColumnProps;
+    export type ColumnProps = DragDropProvider_2.ColumnProps;
 }
 
 // @public
 export const DragDropProvider: React_2.ComponentType<DragDropProviderProps> & {
-  Container: React_2.ComponentType<DragDropProvider_2.ContainerProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Column: React_2.ComponentType<DragDropProvider_2.ColumnProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Container: React_2.ComponentType<DragDropProvider_2.ContainerProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Column: React_2.ComponentType<DragDropProvider_2.ColumnProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface DragDropProviderProps {
-  columnComponent?: React_2.ComponentType<DragDropProvider_2.ColumnProps>;
-  containerComponent?: React_2.ComponentType<DragDropProvider_2.ContainerProps>;
+    columnComponent?: React_2.ComponentType<DragDropProvider_2.ColumnProps>;
+    containerComponent?: React_2.ComponentType<DragDropProvider_2.ContainerProps>;
 }
 
 // @public (undocumented)
 export namespace ExportPanel {
-  export type ToggleButtonProps = ExportPanel_2.ToggleButtonProps;
+    export type ToggleButtonProps = ExportPanel_2.ToggleButtonProps;
 }
 
 // @public (undocumented)
 export namespace ExportPanel {
-  export type MenuProps = ExportPanel_2.MenuProps;
+    export type MenuProps = ExportPanel_2.MenuProps;
 }
 
 // @public (undocumented)
 export namespace ExportPanel {
-  export type MenuItemProps = ExportPanel_2.MenuItemProps;
+    export type MenuItemProps = ExportPanel_2.MenuItemProps;
 }
 
 // @public
 export const ExportPanel: React_2.ComponentType<ExportPanelProps> & {
-  ToggleButton: React_2.ComponentType<ExportPanel_2.ToggleButtonProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Menu: React_2.ComponentType<ExportPanel_2.MenuProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  MenuItem: React_2.ComponentType<ExportPanel_2.MenuItemProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    ToggleButton: React_2.ComponentType<ExportPanel_2.ToggleButtonProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Menu: React_2.ComponentType<ExportPanel_2.MenuProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    MenuItem: React_2.ComponentType<ExportPanel_2.MenuItemProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface ExportPanelProps {
-  menuComponent?: React_2.ComponentType<ExportPanel_2.MenuProps>;
-  menuItemComponent?: React_2.ComponentType<ExportPanel_2.MenuItemProps>;
-  messages?: ExportPanel_2.LocalizationMessages;
-  startExport?: (options: object) => void;
-  toggleButtonComponent?: React_2.ComponentType<ExportPanel_2.ToggleButtonProps>;
+    menuComponent?: React_2.ComponentType<ExportPanel_2.MenuProps>;
+    menuItemComponent?: React_2.ComponentType<ExportPanel_2.MenuItemProps>;
+    messages?: ExportPanel_2.LocalizationMessages;
+    startExport?: (options: object) => void;
+    toggleButtonComponent?: React_2.ComponentType<ExportPanel_2.ToggleButtonProps>;
 }
 
 // @public (undocumented)
 export namespace Grid {
-  export type RootProps = Grid_2.RootProps;
+    export type RootProps = Grid_2.RootProps;
 }
 
 // @public
 export const Grid: React_2.ComponentType<GridProps> & {
-  Root: React_2.ComponentType<Grid_2.RootProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Root: React_2.ComponentType<Grid_2.RootProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface GridProps {
-  columns: ReadonlyArray<Column>;
-  getCellValue?: (row: any, columnName: string) => any;
-  getRowId?: (row: any) => number | string;
-  rootComponent?: React_2.ComponentType<Grid_2.RootProps>;
-  rows: ReadonlyArray<any>;
+    children?: React_2.ReactNode;
+    columns: ReadonlyArray<Column>;
+    getCellValue?: (row: any, columnName: string) => any;
+    getRowId?: (row: any) => number | string;
+    rootComponent?: React_2.ComponentType<Grid_2.RootProps>;
+    rows: ReadonlyArray<any>;
 }
 
 // @public (undocumented)
 export namespace GroupingPanel {
-  export type ContainerProps = GroupingPanel_2.ContainerProps;
+    export type ContainerProps = GroupingPanel_2.ContainerProps;
 }
 
 // @public (undocumented)
 export namespace GroupingPanel {
-  export type ItemProps = GroupingPanel_2.ItemProps;
+    export type ItemProps = GroupingPanel_2.ItemProps;
 }
 
 // @public (undocumented)
 export namespace GroupingPanel {
-  export type EmptyMessageProps = GroupingPanel_2.EmptyMessageProps;
+    export type EmptyMessageProps = GroupingPanel_2.EmptyMessageProps;
 }
 
 // @public
 export const GroupingPanel: React_2.ComponentType<GroupingPanelProps> & {
-  Container: React_2.ComponentType<GroupingPanel_2.ContainerProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Item: React_2.ComponentType<GroupingPanel_2.ItemProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  EmptyMessage: React_2.ComponentType<GroupingPanel_2.EmptyMessageProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Container: React_2.ComponentType<GroupingPanel_2.ContainerProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Item: React_2.ComponentType<GroupingPanel_2.ItemProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    EmptyMessage: React_2.ComponentType<GroupingPanel_2.EmptyMessageProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface GroupingPanelProps {
-  containerComponent?: React_2.ComponentType<GroupingPanel_2.ContainerProps>;
-  emptyMessageComponent?: React_2.ComponentType<GroupingPanel_2.EmptyMessageProps>;
-  itemComponent?: React_2.ComponentType<GroupingPanel_2.ItemProps>;
-  messages?: GroupingPanel_2.LocalizationMessages;
-  showGroupingControls?: boolean;
-  showSortingControls?: boolean;
+    containerComponent?: React_2.ComponentType<GroupingPanel_2.ContainerProps>;
+    emptyMessageComponent?: React_2.ComponentType<GroupingPanel_2.EmptyMessageProps>;
+    itemComponent?: React_2.ComponentType<GroupingPanel_2.ItemProps>;
+    messages?: GroupingPanel_2.LocalizationMessages;
+    showGroupingControls?: boolean;
+    showSortingControls?: boolean;
 }
 
 // @public (undocumented)
 export namespace PagingPanel {
-  export type ContainerProps = PagingPanel_2.ContainerProps;
+    export type ContainerProps = PagingPanel_2.ContainerProps;
 }
 
 // @public
 export const PagingPanel: React_2.ComponentType<PagingPanelProps> & {
-  Container: React_2.ComponentType<PagingPanel_2.ContainerProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Container: React_2.ComponentType<PagingPanel_2.ContainerProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface PagingPanelProps {
-  containerComponent?: React_2.ComponentType<PagingPanel_2.ContainerProps>;
-  messages?: PagingPanel_2.LocalizationMessages;
-  pageSizes?: Array<number>;
+    containerComponent?: React_2.ComponentType<PagingPanel_2.ContainerProps>;
+    messages?: PagingPanel_2.LocalizationMessages;
+    pageSizes?: Array<number>;
 }
 
 // @public (undocumented)
 export namespace SearchPanel {
-  export type InputProps = SearchPanel_2.InputProps;
+    export type InputProps = SearchPanel_2.InputProps;
 }
 
 // @public
 export const SearchPanel: React_2.ComponentType<SearchPanelProps> & {
-  Input: React_2.ComponentType<SearchPanel_2.InputProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Input: React_2.ComponentType<SearchPanel_2.InputProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface SearchPanelProps {
-  inputComponent?: React_2.ComponentType<SearchPanel_2.InputProps>;
-  messages?: SearchPanel_2.LocalizationMessages;
+    inputComponent?: React_2.ComponentType<SearchPanel_2.InputProps>;
+    messages?: SearchPanel_2.LocalizationMessages;
 }
 
 // @public (undocumented)
 export namespace Table {
-  export type ColumnExtension = Table_2.ColumnExtension;
+    export type ColumnExtension = Table_2.ColumnExtension;
 }
 
 // @public (undocumented)
 export namespace Table {
-  export type CellProps = Table_2.CellProps;
+    export type CellProps = Table_2.CellProps;
 }
 
 // @public (undocumented)
 export namespace Table {
-  export type DataCellProps = Table_2.DataCellProps;
+    export type DataCellProps = Table_2.DataCellProps;
 }
 
 // @public (undocumented)
 export namespace Table {
-  export type NoDataCellProps = Table_2.NoDataCellProps;
+    export type NoDataCellProps = Table_2.NoDataCellProps;
 }
 
 // @public (undocumented)
 export namespace Table {
-  export type RowProps = Table_2.RowProps;
+    export type RowProps = Table_2.RowProps;
 }
 
 // @public (undocumented)
 export namespace Table {
-  export type DataRowProps = Table_2.DataRowProps;
+    export type DataRowProps = Table_2.DataRowProps;
 }
 
 // @public
 export const Table: React_2.ComponentType<TableProps> & {
-  COLUMN_TYPE: symbol;
-  ROW_TYPE: symbol;
-  NODATA_ROW_TYPE: symbol;
+    COLUMN_TYPE: symbol;
+    ROW_TYPE: symbol;
+    NODATA_ROW_TYPE: symbol;
 } & {
-  Table: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  TableHead: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  TableBody: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Container: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Cell: React_2.ComponentType<Table_2.DataCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Row: React_2.ComponentType<Table_2.DataRowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  NoDataCell: React_2.ComponentType<Table_2.NoDataCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  NoDataRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  StubRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  StubCell: React_2.ComponentType<Table_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  StubHeaderCell: React_2.ComponentType<Table_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Table: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    TableHead: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    TableBody: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Container: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<Table_2.DataCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Row: React_2.ComponentType<Table_2.DataRowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    NoDataCell: React_2.ComponentType<Table_2.NoDataCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    NoDataRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    StubRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    StubCell: React_2.ComponentType<Table_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    StubHeaderCell: React_2.ComponentType<Table_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export namespace TableBandHeader {
-  export type CellProps = TableBandHeader_2.CellProps;
+    export type CellProps = TableBandHeader_2.CellProps;
 }
 
 // @public (undocumented)
 export namespace TableBandHeader {
-  export type ColumnBands = TableBandHeader_2.ColumnBands;
+    export type ColumnBands = TableBandHeader_2.ColumnBands;
 }
 
 // @public
 export const TableBandHeader: React_2.ComponentType<TableBandHeaderProps> & {
-  ROW_TYPE: symbol;
+    ROW_TYPE: symbol;
 } & {
-  Cell: React_2.ComponentType<Table_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Row: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<Table_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Row: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableBandHeaderProps {
-  cellComponent?: React_2.ComponentType<TableBandHeader_2.CellProps>;
-  columnBands?: Array<TableBandHeader_2.ColumnBands>;
-  rowComponent?: React_2.ComponentType<Table_2.RowProps>;
+    cellComponent?: React_2.ComponentType<TableBandHeader_2.CellProps>;
+    columnBands?: Array<TableBandHeader_2.ColumnBands>;
+    rowComponent?: React_2.ComponentType<Table_2.RowProps>;
 }
 
 // @public
@@ -286,14 +287,14 @@ export const TableColumnReordering: React_2.ComponentType<TableColumnReorderingP
 
 // @public (undocumented)
 export interface TableColumnReorderingProps {
-  defaultOrder?: Array<string>;
-  onOrderChange?: (nextOrder: Array<string>) => void;
-  order?: Array<string>;
+    defaultOrder?: Array<string>;
+    onOrderChange?: (nextOrder: Array<string>) => void;
+    order?: Array<string>;
 }
 
 // @public (undocumented)
 export namespace TableColumnResizing {
-  export type ColumnExtension = TableColumnResizing_2.ColumnExtension;
+    export type ColumnExtension = TableColumnResizing_2.ColumnExtension;
 }
 
 // @public
@@ -301,607 +302,606 @@ export const TableColumnResizing: React_2.ComponentType<TableColumnResizingProps
 
 // @public (undocumented)
 export interface TableColumnResizingProps {
-  columnExtensions?: Array<TableColumnResizing_2.ColumnExtension>;
-  columnWidths?: Array<TableColumnWidthInfo>;
-  defaultColumnWidths?: Array<TableColumnWidthInfo>;
-  maxColumnWidth?: number;
-  minColumnWidth?: number;
-  onColumnWidthsChange?: (nextColumnWidths: Array<TableColumnWidthInfo>) => void;
-  resizingMode?: string;
+    columnExtensions?: Array<TableColumnResizing_2.ColumnExtension>;
+    columnWidths?: Array<TableColumnWidthInfo>;
+    defaultColumnWidths?: Array<TableColumnWidthInfo>;
+    maxColumnWidth?: number;
+    minColumnWidth?: number;
+    onColumnWidthsChange?: (nextColumnWidths: Array<TableColumnWidthInfo>) => void;
+    resizingMode?: string;
 }
 
 // @public (undocumented)
 export namespace TableColumnVisibility {
-  export type EmptyMessageProps = TableColumnVisibility_2.EmptyMessageProps;
+    export type EmptyMessageProps = TableColumnVisibility_2.EmptyMessageProps;
 }
 
 // @public (undocumented)
 export namespace TableColumnVisibility {
-  export type ColumnExtension = TableColumnVisibility_2.ColumnExtension;
+    export type ColumnExtension = TableColumnVisibility_2.ColumnExtension;
 }
 
 // @public
 export const TableColumnVisibility: React_2.ComponentType<TableColumnVisibilityProps> & {
-  EmptyMessage: React_2.ComponentType<TableColumnVisibility_2.EmptyMessageProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    EmptyMessage: React_2.ComponentType<TableColumnVisibility_2.EmptyMessageProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableColumnVisibilityProps {
-  columnExtensions?: Array<TableColumnVisibility_2.ColumnExtension>;
-  columnTogglingEnabled?: boolean;
-  defaultHiddenColumnNames?: Array<string>;
-  emptyMessageComponent?: React_2.ComponentType<TableColumnVisibility_2.EmptyMessageProps>;
-  hiddenColumnNames?: Array<string>;
-  messages?: TableColumnVisibility_2.LocalizationMessages;
-  onHiddenColumnNamesChange?: (hiddenColumnNames: Array<string>) => void;
+    columnExtensions?: Array<TableColumnVisibility_2.ColumnExtension>;
+    columnTogglingEnabled?: boolean;
+    defaultHiddenColumnNames?: Array<string>;
+    emptyMessageComponent?: React_2.ComponentType<TableColumnVisibility_2.EmptyMessageProps>;
+    hiddenColumnNames?: Array<string>;
+    messages?: TableColumnVisibility_2.LocalizationMessages;
+    onHiddenColumnNamesChange?: (hiddenColumnNames: Array<string>) => void;
 }
 
 // @public (undocumented)
 export namespace TableEditColumn {
-  export type CellProps = TableEditColumn_2.CellProps;
+    export type CellProps = TableEditColumn_2.CellProps;
 }
 
 // @public (undocumented)
 export namespace TableEditColumn {
-  export type HeaderCellProps = TableEditColumn_2.HeaderCellProps;
+    export type HeaderCellProps = TableEditColumn_2.HeaderCellProps;
 }
 
 // @public (undocumented)
 export namespace TableEditColumn {
-  export type CommandProps = TableEditColumn_2.CommandProps;
+    export type CommandProps = TableEditColumn_2.CommandProps;
 }
 
 // @public
 export const TableEditColumn: React_2.ComponentType<TableEditColumnProps> & {
-  COLUMN_TYPE: symbol;
+    COLUMN_TYPE: symbol;
 } & {
-  Command: React_2.ComponentType<TableEditColumn_2.CommandProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Cell: React_2.ComponentType<TableEditColumn_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  HeaderCell: React_2.ComponentType<TableEditColumn_2.HeaderCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Command: React_2.ComponentType<TableEditColumn_2.CommandProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<TableEditColumn_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    HeaderCell: React_2.ComponentType<TableEditColumn_2.HeaderCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableEditColumnProps {
-  cellComponent?: React_2.ComponentType<TableEditColumn_2.CellProps>;
-  commandComponent?: React_2.ComponentType<TableEditColumn_2.CommandProps>;
-  headerCellComponent?: React_2.ComponentType<TableEditColumn_2.HeaderCellProps>;
-  messages?: TableEditColumn_2.LocalizationMessages;
-  showAddCommand?: boolean;
-  showDeleteCommand?: boolean;
-  showEditCommand?: boolean;
-  width?: number | string;
+    cellComponent?: React_2.ComponentType<TableEditColumn_2.CellProps>;
+    commandComponent?: React_2.ComponentType<TableEditColumn_2.CommandProps>;
+    headerCellComponent?: React_2.ComponentType<TableEditColumn_2.HeaderCellProps>;
+    messages?: TableEditColumn_2.LocalizationMessages;
+    showAddCommand?: boolean;
+    showDeleteCommand?: boolean;
+    showEditCommand?: boolean;
+    width?: number | string;
 }
 
 // @public (undocumented)
 export namespace TableEditRow {
-  export type CellProps = TableEditRow_2.CellProps;
+    export type CellProps = TableEditRow_2.CellProps;
 }
 
 // @public (undocumented)
 export namespace TableEditRow {
-  export type RowProps = TableEditRow_2.RowProps;
+    export type RowProps = TableEditRow_2.RowProps;
 }
 
 // @public
 export const TableEditRow: React_2.ComponentType<TableEditRowProps> & {
-  ADDED_ROW_TYPE: symbol;
-  EDIT_ROW_TYPE: symbol;
+    ADDED_ROW_TYPE: symbol;
+    EDIT_ROW_TYPE: symbol;
 } & {
-  Cell: React_2.ComponentType<TableEditRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Row: React_2.ComponentType<TableEditRow_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<TableEditRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Row: React_2.ComponentType<TableEditRow_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableEditRowProps {
-  cellComponent?: React_2.ComponentType<TableEditRow_2.CellProps>;
-  rowComponent?: React_2.ComponentType<TableEditRow_2.RowProps>;
-  rowHeight?: number;
+    cellComponent?: React_2.ComponentType<TableEditRow_2.CellProps>;
+    rowComponent?: React_2.ComponentType<TableEditRow_2.RowProps>;
+    rowHeight?: number;
 }
 
 // @public (undocumented)
 export namespace TableFilterRow {
-  export type CellProps = TableFilterRow_2.CellProps;
+    export type CellProps = TableFilterRow_2.CellProps;
 }
 
 // @public (undocumented)
 export namespace TableFilterRow {
-  export type FilterSelectorProps = TableFilterRow_2.FilterSelectorProps;
+    export type FilterSelectorProps = TableFilterRow_2.FilterSelectorProps;
 }
 
 // @public (undocumented)
 export namespace TableFilterRow {
-  export type IconProps = TableFilterRow_2.IconProps;
+    export type IconProps = TableFilterRow_2.IconProps;
 }
 
 // @public (undocumented)
 export namespace TableFilterRow {
-  export type EditorProps = TableFilterRow_2.EditorProps;
+    export type EditorProps = TableFilterRow_2.EditorProps;
 }
 
 // @public (undocumented)
 export namespace TableFilterRow {
-  export type ToggleButtonProps = TableFilterRow_2.ToggleButtonProps;
+    export type ToggleButtonProps = TableFilterRow_2.ToggleButtonProps;
 }
 
 // @public
 export const TableFilterRow: React_2.ComponentType<TableFilterRowProps> & {
-  ROW_TYPE: symbol;
+    ROW_TYPE: symbol;
 } & {
-  Cell: React_2.ComponentType<TableFilterRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Row: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  FilterSelector: React_2.ComponentType<TableFilterRow_2.FilterSelectorProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Icon: React_2.ComponentType<TableFilterRow_2.IconProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Editor: React_2.ComponentType<TableFilterRow_2.EditorProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  ToggleButton: React_2.ComponentType<TableFilterRow_2.ToggleButtonProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<TableFilterRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Row: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    FilterSelector: React_2.ComponentType<TableFilterRow_2.FilterSelectorProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Icon: React_2.ComponentType<TableFilterRow_2.IconProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Editor: React_2.ComponentType<TableFilterRow_2.EditorProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    ToggleButton: React_2.ComponentType<TableFilterRow_2.ToggleButtonProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableFilterRowProps {
-  cellComponent?: React_2.ComponentType<TableFilterRow_2.CellProps>;
-  editorComponent?: React_2.ComponentType<TableFilterRow_2.EditorProps>;
-  filterSelectorComponent?: React_2.ComponentType<TableFilterRow_2.FilterSelectorProps>;
-  iconComponent?: React_2.ComponentType<TableFilterRow_2.IconProps>;
-  messages?: TableFilterRow_2.LocalizationMessages;
-  rowComponent?: React_2.ComponentType<Table_2.RowProps>;
-  rowHeight?: number;
-  showFilterSelector?: boolean;
-  toggleButtonComponent?: React_2.ComponentType<TableFilterRow_2.ToggleButtonProps>;
+    cellComponent?: React_2.ComponentType<TableFilterRow_2.CellProps>;
+    editorComponent?: React_2.ComponentType<TableFilterRow_2.EditorProps>;
+    filterSelectorComponent?: React_2.ComponentType<TableFilterRow_2.FilterSelectorProps>;
+    iconComponent?: React_2.ComponentType<TableFilterRow_2.IconProps>;
+    messages?: TableFilterRow_2.LocalizationMessages;
+    rowComponent?: React_2.ComponentType<Table_2.RowProps>;
+    rowHeight?: number;
+    showFilterSelector?: boolean;
+    toggleButtonComponent?: React_2.ComponentType<TableFilterRow_2.ToggleButtonProps>;
 }
 
 // @public (undocumented)
 export namespace TableFixedColumns {
-  export type CellProps = TableFixedColumns_2.CellProps;
+    export type CellProps = TableFixedColumns_2.CellProps;
 }
 
 // @public
 export const TableFixedColumns: React_2.ComponentType<TableFixedColumnsProps> & {
-  Cell: React_2.ComponentType<TableFixedColumns_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<TableFixedColumns_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableFixedColumnsProps {
-  cellComponent?: React_2.ComponentType<TableFixedColumns_2.CellProps>;
-  leftColumns?: Array<string | symbol>;
-  rightColumns?: Array<string | symbol>;
+    cellComponent?: React_2.ComponentType<TableFixedColumns_2.CellProps>;
+    leftColumns?: Array<string | symbol>;
+    rightColumns?: Array<string | symbol>;
 }
 
 // @public (undocumented)
 export namespace TableGroupRow {
-  export type ColumnExtension = TableGroupRow_2.ColumnExtension;
+    export type ColumnExtension = TableGroupRow_2.ColumnExtension;
 }
 
 // @public (undocumented)
 export namespace TableGroupRow {
-  export type InlineSummaryItemInfo = TableGroupRow_2.InlineSummaryItemInfo;
+    export type InlineSummaryItemInfo = TableGroupRow_2.InlineSummaryItemInfo;
 }
 
 // @public (undocumented)
 export namespace TableGroupRow {
-  export type CellProps = TableGroupRow_2.CellProps;
+    export type CellProps = TableGroupRow_2.CellProps;
 }
 
 // @public (undocumented)
 export namespace TableGroupRow {
-  export type RowProps = TableGroupRow_2.RowProps;
+    export type RowProps = TableGroupRow_2.RowProps;
 }
 
 // @public (undocumented)
 export namespace TableGroupRow {
-  export type ContentProps = TableGroupRow_2.ContentProps;
+    export type ContentProps = TableGroupRow_2.ContentProps;
 }
 
 // @public (undocumented)
 export namespace TableGroupRow {
-  export type IconProps = TableGroupRow_2.IconProps;
+    export type IconProps = TableGroupRow_2.IconProps;
 }
 
 // @public (undocumented)
 export namespace TableGroupRow {
-  export type IndentCellProps = TableGroupRow_2.IndentCellProps;
+    export type IndentCellProps = TableGroupRow_2.IndentCellProps;
 }
 
 // @public (undocumented)
 export namespace TableGroupRow {
-  export type InlineSummaryProps = TableGroupRow_2.InlineSummaryProps;
+    export type InlineSummaryProps = TableGroupRow_2.InlineSummaryProps;
 }
 
 // @public (undocumented)
 export namespace TableGroupRow {
-  export type InlineSummaryItemProps = TableGroupRow_2.InlineSummaryItemProps;
+    export type InlineSummaryItemProps = TableGroupRow_2.InlineSummaryItemProps;
 }
 
 // @public (undocumented)
 export namespace TableGroupRow {
-  export type SummaryCellProps = TableGroupRow_2.SummaryCellProps;
+    export type SummaryCellProps = TableGroupRow_2.SummaryCellProps;
 }
 
 // @public (undocumented)
 export namespace TableGroupRow {
-  export type StubCellProps = TableGroupRow_2.StubCellProps;
+    export type StubCellProps = TableGroupRow_2.StubCellProps;
 }
 
 // @public
 export const TableGroupRow: React_2.ComponentType<TableGroupRowProps> & {
-  COLUMN_TYPE: symbol;
-  ROW_TYPE: symbol;
+    COLUMN_TYPE: symbol;
+    ROW_TYPE: symbol;
 } & {
-  Row: React_2.ComponentType<TableGroupRow_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Cell: React_2.ComponentType<TableGroupRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Content: React_2.ComponentType<TableGroupRow_2.ContentProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Icon: React_2.ComponentType<TableGroupRow_2.IconProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  InlineSummary: React_2.ComponentType<TableGroupRow_2.InlineSummaryProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  InlineSummaryItem: React_2.ComponentType<TableGroupRow_2.InlineSummaryItemProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  SummaryCell: React_2.ComponentType<TableGroupRow_2.SummaryCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  SummaryItem: React_2.ComponentType<TableSummaryRow_2.ItemProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Row: React_2.ComponentType<TableGroupRow_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<TableGroupRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Content: React_2.ComponentType<TableGroupRow_2.ContentProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Icon: React_2.ComponentType<TableGroupRow_2.IconProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    InlineSummary: React_2.ComponentType<TableGroupRow_2.InlineSummaryProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    InlineSummaryItem: React_2.ComponentType<TableGroupRow_2.InlineSummaryItemProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    SummaryCell: React_2.ComponentType<TableGroupRow_2.SummaryCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    SummaryItem: React_2.ComponentType<TableSummaryRow_2.ItemProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableGroupRowProps {
-  cellComponent?: React_2.ComponentType<TableGroupRow_2.CellProps>;
-  columnExtensions?: Array<TableGroupRow_2.ColumnExtension>;
-  contentCellPadding?: string;
-  contentComponent?: React_2.ComponentType<TableGroupRow_2.ContentProps>;
-  formatlessSummaryTypes?: Array<string>;
-  iconComponent?: React_2.ComponentType<TableGroupRow_2.IconProps>;
-  indentCellComponent?: React_2.ComponentType<TableGroupRow_2.IndentCellProps>;
-  indentColumnWidth?: number;
-  inlineSummaryComponent?: React_2.ComponentType<TableGroupRow_2.InlineSummaryProps>;
-  inlineSummaryItemComponent?: React_2.ComponentType<TableGroupRow_2.InlineSummaryItemProps>;
-  messages?: TableGroupRow_2.LocalizationMessages;
-  rowComponent?: React_2.ComponentType<TableGroupRow_2.RowProps>;
-  showColumnsWhenGrouped?: boolean;
-  stubCellComponent?: React_2.ComponentType<TableGroupRow_2.StubCellProps>;
-  summaryCellComponent?: React_2.ComponentType<TableGroupRow_2.SummaryCellProps>;
-  summaryItemComponent?: React_2.ComponentType<TableSummaryRow_2.ItemProps>;
+    cellComponent?: React_2.ComponentType<TableGroupRow_2.CellProps>;
+    columnExtensions?: Array<TableGroupRow_2.ColumnExtension>;
+    contentCellPadding?: string;
+    contentComponent?: React_2.ComponentType<TableGroupRow_2.ContentProps>;
+    formatlessSummaryTypes?: Array<string>;
+    iconComponent?: React_2.ComponentType<TableGroupRow_2.IconProps>;
+    indentCellComponent?: React_2.ComponentType<TableGroupRow_2.IndentCellProps>;
+    indentColumnWidth?: number;
+    inlineSummaryComponent?: React_2.ComponentType<TableGroupRow_2.InlineSummaryProps>;
+    inlineSummaryItemComponent?: React_2.ComponentType<TableGroupRow_2.InlineSummaryItemProps>;
+    messages?: TableGroupRow_2.LocalizationMessages;
+    rowComponent?: React_2.ComponentType<TableGroupRow_2.RowProps>;
+    showColumnsWhenGrouped?: boolean;
+    stubCellComponent?: React_2.ComponentType<TableGroupRow_2.StubCellProps>;
+    summaryCellComponent?: React_2.ComponentType<TableGroupRow_2.SummaryCellProps>;
+    summaryItemComponent?: React_2.ComponentType<TableSummaryRow_2.ItemProps>;
 }
 
 // @public (undocumented)
 export namespace TableHeaderRow {
-  export type CellProps = TableHeaderRow_2.CellProps;
+    export type CellProps = TableHeaderRow_2.CellProps;
 }
 
 // @public (undocumented)
 export namespace TableHeaderRow {
-  export type SortLabelProps = TableHeaderRow_2.SortLabelProps;
+    export type SortLabelProps = TableHeaderRow_2.SortLabelProps;
 }
 
 // @public (undocumented)
 export namespace TableHeaderRow {
-  export type ContentProps = TableHeaderRow_2.ContentProps;
+    export type ContentProps = TableHeaderRow_2.ContentProps;
 }
 
 // @public (undocumented)
 export namespace TableHeaderRow {
-  export type GroupButtonProps = TableHeaderRow_2.GroupButtonProps;
+    export type GroupButtonProps = TableHeaderRow_2.GroupButtonProps;
 }
 
 // @public
 export const TableHeaderRow: React_2.ComponentType<TableHeaderRowProps> & {
-  ROW_TYPE: symbol;
+    ROW_TYPE: symbol;
 } & {
-  Row: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Cell: React_2.ComponentType<TableHeaderRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Content: React_2.ComponentType<TableHeaderRow_2.ContentProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  SortLabel: React_2.ComponentType<TableHeaderRow_2.SortLabelProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Title: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  GroupButton: React_2.ComponentType<TableHeaderRow_2.GroupButtonProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Row: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<TableHeaderRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Content: React_2.ComponentType<TableHeaderRow_2.ContentProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    SortLabel: React_2.ComponentType<TableHeaderRow_2.SortLabelProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Title: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    GroupButton: React_2.ComponentType<TableHeaderRow_2.GroupButtonProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableHeaderRowProps {
-  cellComponent?: React_2.ComponentType<TableHeaderRow_2.CellProps>;
-  contentComponent?: React_2.ComponentType<TableHeaderRow_2.ContentProps>;
-  groupButtonComponent?: React_2.ComponentType<TableHeaderRow_2.GroupButtonProps>;
-  messages?: TableHeaderRow_2.LocalizationMessages;
-  rowComponent?: React_2.ComponentType<Table_2.RowProps>;
-  showGroupingControls?: boolean;
-  showSortingControls?: boolean;
-  sortLabelComponent?: React_2.ComponentType<TableHeaderRow_2.SortLabelProps>;
-  titleComponent?: React_2.ComponentType<object>;
+    cellComponent?: React_2.ComponentType<TableHeaderRow_2.CellProps>;
+    contentComponent?: React_2.ComponentType<TableHeaderRow_2.ContentProps>;
+    groupButtonComponent?: React_2.ComponentType<TableHeaderRow_2.GroupButtonProps>;
+    messages?: TableHeaderRow_2.LocalizationMessages;
+    rowComponent?: React_2.ComponentType<Table_2.RowProps>;
+    showGroupingControls?: boolean;
+    showSortingControls?: boolean;
+    sortLabelComponent?: React_2.ComponentType<TableHeaderRow_2.SortLabelProps>;
+    titleComponent?: React_2.ComponentType<object>;
 }
 
 // @public (undocumented)
 export namespace TableInlineCellEditing {
-  export type CellProps = TableInlineCellEditing_2.CellProps;
+    export type CellProps = TableInlineCellEditing_2.CellProps;
 }
 
 // @public
 export const TableInlineCellEditing: React_2.ComponentType<TableInlineCellEditingProps> & {
-  Cell: React_2.ComponentType<TableInlineCellEditing_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<TableInlineCellEditing_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableInlineCellEditingProps {
-  cellComponent?: React_2.ComponentType<TableInlineCellEditing_2.CellProps>;
-  selectTextOnEditStart?: boolean;
-  startEditAction?: 'click' | 'doubleClick';
+    cellComponent?: React_2.ComponentType<TableInlineCellEditing_2.CellProps>;
+    selectTextOnEditStart?: boolean;
+    startEditAction?: 'click' | 'doubleClick';
 }
 
 // @public (undocumented)
 export namespace TableKeyboardNavigation {
-  export type CellProps = TableKeyboardNavigation_2.CellProps;
+    export type CellProps = TableKeyboardNavigation_2.CellProps;
 }
 
 // @public (undocumented)
 export namespace TableKeyboardNavigation {
-  export type RowProps = TableKeyboardNavigation_2.RowProps;
+    export type RowProps = TableKeyboardNavigation_2.RowProps;
 }
 
 // @public
 export const TableKeyboardNavigation: React_2.ComponentType<TableKeyboardNavigationProps> & {
-  Cell: React_2.ComponentType<TableKeyboardNavigation_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Row: React_2.ComponentType<TableKeyboardNavigation_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<TableKeyboardNavigation_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Row: React_2.ComponentType<TableKeyboardNavigation_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableKeyboardNavigationProps {
-  cellComponent?: React_2.ComponentType<TableKeyboardNavigation_2.CellProps>;
-  defaultFocusedCell?: { rowKey: string, columnKey: string };
-  focusedCell?: { rowKey: string, columnKey: string };
-  focusedRowEnabled?: boolean;
-  onFocusedCellChange?: (focusedCell: { rowKey: string, columnKey: string }) => void;
-  rowComponent?: React_2.ComponentType<TableKeyboardNavigation_2.RowProps>;
+    cellComponent?: React_2.ComponentType<TableKeyboardNavigation_2.CellProps>;
+    defaultFocusedCell?: { rowKey: string, columnKey: string };
+    focusedCell?: { rowKey: string, columnKey: string };
+    focusedRowEnabled?: boolean;
+    onFocusedCellChange?: (focusedCell: { rowKey: string, columnKey: string }) => void;
+    rowComponent?: React_2.ComponentType<TableKeyboardNavigation_2.RowProps>;
 }
 
 // @public (undocumented)
 export interface TableProps {
-  bodyComponent?: React_2.ComponentType<object>;
-  cellComponent?: React_2.ComponentType<Table_2.DataCellProps>;
-  columnExtensions?: Array<Table_2.ColumnExtension>;
-  containerComponent?: React_2.ComponentType<object>;
-  footerComponent?: React_2.ComponentType<object>;
-  headComponent?: React_2.ComponentType<object>;
-  messages?: Table_2.LocalizationMessages;
-  noDataCellComponent?: React_2.ComponentType<Table_2.NoDataCellProps>;
-  noDataRowComponent?: React_2.ComponentType<Table_2.RowProps>;
-  rowComponent?: React_2.ComponentType<Table_2.DataRowProps>;
-  stubCellComponent?: React_2.ComponentType<Table_2.CellProps>;
-  stubHeaderCellComponent?: React_2.ComponentType<Table_2.CellProps>;
-  stubRowComponent?: React_2.ComponentType<Table_2.RowProps>;
-  tableComponent?: React_2.ComponentType<object>;
+    bodyComponent?: React_2.ComponentType<object>;
+    cellComponent?: React_2.ComponentType<Table_2.DataCellProps>;
+    columnExtensions?: Array<Table_2.ColumnExtension>;
+    containerComponent?: React_2.ComponentType<object>;
+    footerComponent?: React_2.ComponentType<object>;
+    headComponent?: React_2.ComponentType<object>;
+    messages?: Table_2.LocalizationMessages;
+    noDataCellComponent?: React_2.ComponentType<Table_2.NoDataCellProps>;
+    noDataRowComponent?: React_2.ComponentType<Table_2.RowProps>;
+    rowComponent?: React_2.ComponentType<Table_2.DataRowProps>;
+    stubCellComponent?: React_2.ComponentType<Table_2.CellProps>;
+    stubHeaderCellComponent?: React_2.ComponentType<Table_2.CellProps>;
+    stubRowComponent?: React_2.ComponentType<Table_2.RowProps>;
+    tableComponent?: React_2.ComponentType<object>;
 }
 
 // @public (undocumented)
 export namespace TableRowDetail {
-  export type ContentProps = TableRowDetail_2.ContentProps;
+    export type ContentProps = TableRowDetail_2.ContentProps;
 }
 
 // @public (undocumented)
 export namespace TableRowDetail {
-  export type CellProps = TableRowDetail_2.CellProps;
+    export type CellProps = TableRowDetail_2.CellProps;
 }
 
 // @public (undocumented)
 export namespace TableRowDetail {
-  export type RowProps = TableRowDetail_2.RowProps;
+    export type RowProps = TableRowDetail_2.RowProps;
 }
 
 // @public (undocumented)
 export namespace TableRowDetail {
-  export type ToggleCellProps = TableRowDetail_2.ToggleCellProps;
+    export type ToggleCellProps = TableRowDetail_2.ToggleCellProps;
 }
 
 // @public
 export const TableRowDetail: React_2.ComponentType<TableRowDetailProps> & {
-  COLUMN_TYPE: symbol;
-  ROW_TYPE: symbol;
+    COLUMN_TYPE: symbol;
+    ROW_TYPE: symbol;
 } & {
-  Cell: React_2.ComponentType<TableRowDetail_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Row: React_2.ComponentType<TableRowDetail_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  ToggleCell: React_2.ComponentType<TableRowDetail_2.ToggleCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<TableRowDetail_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Row: React_2.ComponentType<TableRowDetail_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    ToggleCell: React_2.ComponentType<TableRowDetail_2.ToggleCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableRowDetailProps {
-  cellComponent?: React_2.ComponentType<TableRowDetail_2.CellProps>;
-  contentComponent?: React_2.ComponentType<TableRowDetail_2.ContentProps>;
-  rowComponent?: React_2.ComponentType<TableRowDetail_2.RowProps>;
-  rowHeight?: number;
-  toggleCellComponent?: React_2.ComponentType<TableRowDetail_2.ToggleCellProps>;
-  toggleColumnWidth?: number;
+    cellComponent?: React_2.ComponentType<TableRowDetail_2.CellProps>;
+    contentComponent?: React_2.ComponentType<TableRowDetail_2.ContentProps>;
+    rowComponent?: React_2.ComponentType<TableRowDetail_2.RowProps>;
+    rowHeight?: number;
+    toggleCellComponent?: React_2.ComponentType<TableRowDetail_2.ToggleCellProps>;
+    toggleColumnWidth?: number;
 }
 
 // @public (undocumented)
 export namespace TableSelection {
-  export type HeaderCellProps = TableSelection_2.HeaderCellProps;
+    export type HeaderCellProps = TableSelection_2.HeaderCellProps;
 }
 
 // @public (undocumented)
 export namespace TableSelection {
-  export type CellProps = TableSelection_2.CellProps;
+    export type CellProps = TableSelection_2.CellProps;
 }
 
 // @public (undocumented)
 export namespace TableSelection {
-  export type RowProps = TableSelection_2.RowProps;
+    export type RowProps = TableSelection_2.RowProps;
 }
 
 // @public
 export const TableSelection: React_2.ComponentType<TableSelectionProps> & {
-  COLUMN_TYPE: symbol;
+    COLUMN_TYPE: symbol;
 } & {
-  HeaderCell: React_2.ComponentType<TableSelection_2.HeaderCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Cell: React_2.ComponentType<TableSelection_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    HeaderCell: React_2.ComponentType<TableSelection_2.HeaderCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<TableSelection_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableSelectionProps {
-  cellComponent?: React_2.ComponentType<TableSelection_2.CellProps>;
-  headerCellComponent?: React_2.ComponentType<TableSelection_2.HeaderCellProps>;
-  highlightRow?: boolean;
-  rowComponent?: React_2.ComponentType<TableSelection_2.RowProps>;
-  selectByRowClick?: boolean;
-  selectionColumnWidth?: number;
-  showSelectAll?: boolean;
-  showSelectionColumn?: boolean;
+    cellComponent?: React_2.ComponentType<TableSelection_2.CellProps>;
+    headerCellComponent?: React_2.ComponentType<TableSelection_2.HeaderCellProps>;
+    highlightRow?: boolean;
+    rowComponent?: React_2.ComponentType<TableSelection_2.RowProps>;
+    selectByRowClick?: boolean;
+    selectionColumnWidth?: number;
+    showSelectAll?: boolean;
+    showSelectionColumn?: boolean;
 }
 
 // @public (undocumented)
 export namespace TableSummaryRow {
-  export type CellProps = TableSummaryRow_2.CellProps;
+    export type CellProps = TableSummaryRow_2.CellProps;
 }
 
 // @public (undocumented)
 export namespace TableSummaryRow {
-  export type ContentProps = TableSummaryRow_2.ContentProps;
+    export type ContentProps = TableSummaryRow_2.ContentProps;
 }
 
 // @public (undocumented)
 export namespace TableSummaryRow {
-  export type IndentProps = TableSummaryRow_2.IndentProps;
+    export type IndentProps = TableSummaryRow_2.IndentProps;
 }
 
 // @public (undocumented)
 export namespace TableSummaryRow {
-  export type ItemProps = TableSummaryRow_2.ItemProps;
+    export type ItemProps = TableSummaryRow_2.ItemProps;
 }
 
 // @public
 export const TableSummaryRow: React_2.ComponentType<TableSummaryRowProps> & {
-  TREE_ROW_TYPE: symbol;
-  GROUP_ROW_TYPE: symbol;
-  TOTAL_ROW_TYPE: symbol;
+    TREE_ROW_TYPE: symbol;
+    GROUP_ROW_TYPE: symbol;
+    TOTAL_ROW_TYPE: symbol;
 } & {
-  Cell: React_2.ComponentType<TableSummaryRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  TotalRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  GroupRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  TreeRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  TotalCell: React_2.ComponentType<TableSummaryRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  GroupCell: React_2.ComponentType<TableSummaryRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  TreeCell: React_2.ComponentType<TableSummaryRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  TreeColumnCell: React_2.ComponentType<TableSummaryRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  TreeColumnContent: React_2.ComponentType<TableSummaryRow_2.ContentProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  TreeColumnIndent: React_2.ComponentType<TableSummaryRow_2.IndentProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Item: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<TableSummaryRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    TotalRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    GroupRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    TreeRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    TotalCell: React_2.ComponentType<TableSummaryRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    GroupCell: React_2.ComponentType<TableSummaryRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    TreeCell: React_2.ComponentType<TableSummaryRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    TreeColumnCell: React_2.ComponentType<TableSummaryRow_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    TreeColumnContent: React_2.ComponentType<TableSummaryRow_2.ContentProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    TreeColumnIndent: React_2.ComponentType<TableSummaryRow_2.IndentProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Item: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableSummaryRowProps {
-  formatlessSummaryTypes?: Array<string>;
-  groupCellComponent?: React_2.ComponentType<TableSummaryRow_2.CellProps>;
-  groupRowComponent?: React_2.ComponentType<Table_2.RowProps>;
-  itemComponent?: React_2.ComponentType<TableSummaryRow_2.ItemProps>;
-  messages?: TableSummaryRow_2.LocalizationMessages;
-  totalCellComponent?: React_2.ComponentType<TableSummaryRow_2.CellProps>;
-  totalRowComponent?: React_2.ComponentType<Table_2.RowProps>;
-  treeCellComponent?: React_2.ComponentType<TableSummaryRow_2.CellProps>;
-  treeColumnCellComponent?: React_2.ComponentType<TableSummaryRow_2.CellProps>;
-  treeColumnContentComponent?: React_2.ComponentType<TableSummaryRow_2.ContentProps>;
-  treeColumnIndentComponent?: React_2.ComponentType<TableSummaryRow_2.IndentProps>;
-  treeRowComponent?: React_2.ComponentType<Table_2.RowProps>;
+    formatlessSummaryTypes?: Array<string>;
+    groupCellComponent?: React_2.ComponentType<TableSummaryRow_2.CellProps>;
+    groupRowComponent?: React_2.ComponentType<Table_2.RowProps>;
+    itemComponent?: React_2.ComponentType<TableSummaryRow_2.ItemProps>;
+    messages?: TableSummaryRow_2.LocalizationMessages;
+    totalCellComponent?: React_2.ComponentType<TableSummaryRow_2.CellProps>;
+    totalRowComponent?: React_2.ComponentType<Table_2.RowProps>;
+    treeCellComponent?: React_2.ComponentType<TableSummaryRow_2.CellProps>;
+    treeColumnCellComponent?: React_2.ComponentType<TableSummaryRow_2.CellProps>;
+    treeColumnContentComponent?: React_2.ComponentType<TableSummaryRow_2.ContentProps>;
+    treeColumnIndentComponent?: React_2.ComponentType<TableSummaryRow_2.IndentProps>;
+    treeRowComponent?: React_2.ComponentType<Table_2.RowProps>;
 }
 
 // @public (undocumented)
 export namespace TableTreeColumn {
-  export type CellProps = TableTreeColumn_2.CellProps;
+    export type CellProps = TableTreeColumn_2.CellProps;
 }
 
 // @public (undocumented)
 export namespace TableTreeColumn {
-  export type ContentProps = TableTreeColumn_2.ContentProps;
+    export type ContentProps = TableTreeColumn_2.ContentProps;
 }
 
 // @public (undocumented)
 export namespace TableTreeColumn {
-  export type IndentProps = TableTreeColumn_2.IndentProps;
+    export type IndentProps = TableTreeColumn_2.IndentProps;
 }
 
 // @public (undocumented)
 export namespace TableTreeColumn {
-  export type ExpandButtonProps = TableTreeColumn_2.ExpandButtonProps;
+    export type ExpandButtonProps = TableTreeColumn_2.ExpandButtonProps;
 }
 
 // @public (undocumented)
 export namespace TableTreeColumn {
-  export type CheckboxProps = TableTreeColumn_2.CheckboxProps;
+    export type CheckboxProps = TableTreeColumn_2.CheckboxProps;
 }
 
 // @public
 export const TableTreeColumn: React_2.ComponentType<TableTreeColumnProps> & {
-  Cell: React_2.ComponentType<TableTreeColumn_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Content: React_2.ComponentType<TableTreeColumn_2.ContentProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Indent: React_2.ComponentType<TableTreeColumn_2.IndentProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  ExpandButton: React_2.ComponentType<TableTreeColumn_2.ExpandButtonProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Checkbox: React_2.ComponentType<TableTreeColumn_2.CheckboxProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<TableTreeColumn_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Content: React_2.ComponentType<TableTreeColumn_2.ContentProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Indent: React_2.ComponentType<TableTreeColumn_2.IndentProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    ExpandButton: React_2.ComponentType<TableTreeColumn_2.ExpandButtonProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Checkbox: React_2.ComponentType<TableTreeColumn_2.CheckboxProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface TableTreeColumnProps {
-  cellComponent?: React_2.ComponentType<TableTreeColumn_2.CellProps>;
-  checkboxComponent?: React_2.ComponentType<TableTreeColumn_2.CheckboxProps>;
-  contentComponent?: React_2.ComponentType<TableTreeColumn_2.ContentProps>;
-  expandButtonComponent?: React_2.ComponentType<TableTreeColumn_2.ExpandButtonProps>;
-  for?: string;
-  indentComponent?: React_2.ComponentType<TableTreeColumn_2.IndentProps>;
-  showSelectAll?: boolean;
-  showSelectionControls?: boolean;
+    cellComponent?: React_2.ComponentType<TableTreeColumn_2.CellProps>;
+    checkboxComponent?: React_2.ComponentType<TableTreeColumn_2.CheckboxProps>;
+    contentComponent?: React_2.ComponentType<TableTreeColumn_2.ContentProps>;
+    expandButtonComponent?: React_2.ComponentType<TableTreeColumn_2.ExpandButtonProps>;
+    for?: string;
+    indentComponent?: React_2.ComponentType<TableTreeColumn_2.IndentProps>;
+    showSelectAll?: boolean;
+    showSelectionControls?: boolean;
 }
 
 // @public (undocumented)
 export namespace Toolbar {
-  export type RootProps = Toolbar_2.RootProps;
+    export type RootProps = Toolbar_2.RootProps;
 }
 
 // @public
 export const Toolbar: React_2.ComponentType<ToolbarProps> & {
-  Root: React_2.ComponentType<Toolbar_2.RootProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Root: React_2.ComponentType<Toolbar_2.RootProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 };
 
 // @public (undocumented)
 export interface ToolbarProps {
-  rootComponent?: React_2.ComponentType<Toolbar_2.RootProps>;
+    rootComponent?: React_2.ComponentType<Toolbar_2.RootProps>;
 }
 
 // @public (undocumented)
 export namespace VirtualTable {
-  export type ColumnExtension = VirtualTable_2.ColumnExtension;
+    export type ColumnExtension = VirtualTable_2.ColumnExtension;
 }
 
 // @public
 export const VirtualTable: React_2.ComponentType<VirtualTableProps> & {
-  COLUMN_TYPE: symbol;
-  ROW_TYPE: symbol;
-  NODATA_ROW_TYPE: symbol;
-  TOP_POSITION: symbol;
-  BOTTOM_POSITION: symbol;
+    COLUMN_TYPE: symbol;
+    ROW_TYPE: symbol;
+    NODATA_ROW_TYPE: symbol;
+    TOP_POSITION: symbol;
+    BOTTOM_POSITION: symbol;
 } & {
-  Table: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  TableHead: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  TableBody: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Container: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Cell: React_2.ComponentType<Table_2.DataCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  Row: React_2.ComponentType<Table_2.DataRowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  NoDataCell: React_2.ComponentType<Table_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  NoDataRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  StubRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  StubCell: React_2.ComponentType<Table_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
-  StubHeaderCell: React_2.ComponentType<Table_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Table: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    TableHead: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    TableBody: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Container: React_2.ComponentType<object & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Cell: React_2.ComponentType<Table_2.DataCellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    Row: React_2.ComponentType<Table_2.DataRowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    NoDataCell: React_2.ComponentType<Table_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    NoDataRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    StubRow: React_2.ComponentType<Table_2.RowProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    StubCell: React_2.ComponentType<Table_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
+    StubHeaderCell: React_2.ComponentType<Table_2.CellProps & { className?: string; style?: React_2.CSSProperties; [x: string]: any }>;
 } & {
-scrollToRow: (rowId: number | string) => void;
+    scrollToRow: (rowId: number | string) => void;
 };
 
 // @public (undocumented)
 export interface VirtualTableProps {
-  bodyComponent?: React_2.ComponentType<object>;
-  cellComponent?: React_2.ComponentType<Table_2.DataCellProps>;
-  columnExtensions?: Array<VirtualTable_2.ColumnExtension>;
-  containerComponent?: React_2.ComponentType<object>;
-  estimatedRowHeight?: number;
-  footerComponent?: React_2.ComponentType<object>;
-  headComponent?: React_2.ComponentType<object>;
-  height?: number | string;
-  messages?: Table_2.LocalizationMessages;
-  noDataCellComponent?: React_2.ComponentType<Table_2.NoDataCellProps>;
-  noDataRowComponent?: React_2.ComponentType<Table_2.RowProps>;
-  onTopRowChange?: (rowId: number | string) => void;
-  ref?: React_2.RefObject<typeof VirtualTable>;
-  rowComponent?: React_2.ComponentType<Table_2.DataRowProps>;
-  stubCellComponent?: React_2.ComponentType<Table_2.CellProps>;
-  stubHeaderCellComponent?: React_2.ComponentType<Table_2.CellProps>;
-  stubRowComponent?: React_2.ComponentType<Table_2.RowProps>;
-  tableComponent?: React_2.ComponentType<object>;
+    bodyComponent?: React_2.ComponentType<object>;
+    cellComponent?: React_2.ComponentType<Table_2.DataCellProps>;
+    columnExtensions?: Array<VirtualTable_2.ColumnExtension>;
+    containerComponent?: React_2.ComponentType<object>;
+    estimatedRowHeight?: number;
+    footerComponent?: React_2.ComponentType<object>;
+    headComponent?: React_2.ComponentType<object>;
+    height?: number | string;
+    messages?: Table_2.LocalizationMessages;
+    noDataCellComponent?: React_2.ComponentType<Table_2.NoDataCellProps>;
+    noDataRowComponent?: React_2.ComponentType<Table_2.RowProps>;
+    onTopRowChange?: (rowId: number | string) => void;
+    ref?: React_2.RefObject<typeof VirtualTable>;
+    rowComponent?: React_2.ComponentType<Table_2.DataRowProps>;
+    stubCellComponent?: React_2.ComponentType<Table_2.CellProps>;
+    stubHeaderCellComponent?: React_2.ComponentType<Table_2.CellProps>;
+    stubRowComponent?: React_2.ComponentType<Table_2.RowProps>;
+    tableComponent?: React_2.ComponentType<object>;
 }
-
 
 // (No @packageDocumentation comment for this package)
 
