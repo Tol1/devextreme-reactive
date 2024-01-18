@@ -1,6 +1,6 @@
 {
   "name": "@devexpress/dx-core",
-  "version": "4.0.3",
+  "version": "4.0.6",
   "description": "Core library for DevExtreme Reactive Components",
   "author": {
     "name": "Developer Express Inc.",
@@ -17,8 +17,14 @@
   "type": "module",
   "exports": {
     ".": {
-      "require": "./dist/dx-core.umd.cjs",
-      "module": "./dist/dx-core.es.js",
+      "require": {
+        "types": "./dist/dx-core.d.cts",
+        "default": "./dist/dx-core.umd.cjs"
+      },
+      "import": {
+        "types": "./dist/dx-core.d.ts",
+        "default": "./dist/dx-core.es.js"
+      },
       "default": "./dist/dx-core.es.js"
     }
   },

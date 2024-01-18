@@ -1,3 +1,38 @@
+# [4.0.6](https://github.com/DevExpress/devextreme-reactive/compare/v4.0.5...v4.0.6) (2023-11-06)
+
+
+### Bug Fixes
+
+* conditional type exports (T1177805) ([#3661](https://github.com/DevExpress/devextreme-reactive/issues/3661)) ([db3373d](https://github.com/DevExpress/devextreme-reactive/commit/db3373d63f05ea3f14adbee523aa86d6ea7798e4))
+* **react-grid-material-ui:** fix styled components' styles that use theme.spacing with a negative sign ([#3660](https://github.com/DevExpress/devextreme-reactive/issues/3660)) ([6f6588a](https://github.com/DevExpress/devextreme-reactive/commit/6f6588a56d64822166fbe6a96b370b4c84098171))
+
+
+### Features
+
+* Matomo setup (dx-site) ([#3663](https://github.com/DevExpress/devextreme-reactive/issues/3663)) ([d25e329](https://github.com/DevExpress/devextreme-reactive/commit/d25e32915ccce87d26b46efe1f649235edfa306e))
+
+
+
+# [4.0.5](https://github.com/DevExpress/devextreme-reactive/compare/v4.0.4...v4.0.5) (2023-07-03)
+
+
+### Bug Fixes
+
+* **react-grid:** fixed scrollbar jumps when scrolling a virtual table with different row heights from bottom to top (T1171681) ([#3657](https://github.com/DevExpress/devextreme-reactive/issues/3657)) ([cd0da0c](https://github.com/DevExpress/devextreme-reactive/commit/cd0da0c3225dd65036ad31811bbb7c6aea3104b4))
+* **react-grid:** fixed a bug when the previous column's sorting was not cleared after the user sorted by a different column and the Sorting State plugin's column extensions were used ([#3647](https://github.com/DevExpress/devextreme-reactive/issues/3647)) ([#3653](https://github.com/DevExpress/devextreme-reactive/issues/3653)) ([5655906](https://github.com/DevExpress/devextreme-reactive/commit/565590645acf0530b1405a8cc6b3fb3e88556f66))
+
+
+
+# [4.0.4](https://github.com/DevExpress/devextreme-reactive/compare/v4.0.3...v4.0.4) (2023-05-16)
+
+
+### Bug Fixes
+
+* **grid-core:** Make a virtual table's viewport calculation band-friendly (T1154239) ([#3643](https://github.com/DevExpress/devextreme-reactive/issues/3643)) ([cf41706](https://github.com/DevExpress/devextreme-reactive/commit/cf41706b97a024fed32e3f9351a725a260067eb0))
+* **react-scheduler:** fix horizontal scale flickering (T1151128) ([#3641](https://github.com/DevExpress/devextreme-reactive/issues/3641)) ([fc2b29e](https://github.com/DevExpress/devextreme-reactive/commit/fc2b29eac986a68afbe06c99f37ea445b8bbbb8b))
+* Update the `react-popper` dependency to v2, by [@glsignal](https://github.com/glsignal) ([345fa12](https://github.com/DevExpress/devextreme-reactive/commit/345fa12dc4c5a953e9c4b80ba4d4fd4d518c7c6f))
+
+
 # [4.0.3](https://github.com/DevExpress/devextreme-reactive/compare/v4.0.2...v4.0.3) (2023-01-26)
 
 
