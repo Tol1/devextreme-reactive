@@ -1,3 +1,19 @@
+# [4.0.8](https://github.com/DevExpress/devextreme-reactive/compare/v4.0.7...v4.0.8) (2024-02-05)
+
+### Bug Fixes
+
+* fix compatibility with React 18.3 Canary ([#3669](https://github.com/DevExpress/devextreme-reactive/issues/3669)) ([4d74165](https://github.com/DevExpress/devextreme-reactive/commit/4d741659546a6412923f2153943f198fcc718464))
+
+
+# [4.0.7](https://github.com/DevExpress/devextreme-reactive/compare/v4.0.6...v4.0.7) (2024-01-30)
+
+
+### Bug Fixes
+
+* **grid-core:** - Generate .d.ts files for grid and scheduler core packages ([#3667](https://github.com/DevExpress/devextreme-reactive/issues/3667)) ([1fe82ac](https://github.com/DevExpress/devextreme-reactive/commit/1fe82ac7dd68a0623c88aa30473bfa253b844e4d))
+
+
+
 # [4.0.6](https://github.com/DevExpress/devextreme-reactive/compare/v4.0.5...v4.0.6) (2023-11-06)
 
 
